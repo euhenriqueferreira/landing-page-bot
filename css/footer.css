@@ -1,0 +1,15 @@
+footer{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    border-top: 2px solid #1227E0;
+}
+
+footer h1{
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 700;
+
+}

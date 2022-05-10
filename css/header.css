@@ -1,0 +1,40 @@
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 140px;
+    padding: 25px;
+}
+
+.logo img{
+    height: 140px;
+}
+
+.menu ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu ul li a{
+    padding: 15px;
+    color: white;
+    font-size: 1.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.menu ul li a:hover{
+    text-decoration: underline;
+    transition-duration: 0.5s;
+    color: #5765E6;
+    
+}
+
+#baixar{
+    background-color: #5765E6;
+    border-radius: 20px;
+}
+
+#baixar:hover{
+    color: white;
+}
